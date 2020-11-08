@@ -1,12 +1,12 @@
 class Bird extends BaseClass {
   constructor(x,y){
     super(x,y,50,50);
-    this.image = loadImage("sprites/hexagon.png");
+    this.image = loadImage("sprites/bird.png");
   }
 
   display() {
-    //this.body.position.x = mouseX;
-    //this.body.position.y = mouseY;
+    this.body.position.x = mouseX;
+    this.body.position.y = mouseY;
     super.display();
   }
 }

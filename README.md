@@ -1,2 +1,2 @@
-# AngryBirdsStage3
-Stage 3 Angry Birds: Introducing Constraint
+# angryBirdsStage2
+Angry Birds stage 2 with Class Inheritance and Images
